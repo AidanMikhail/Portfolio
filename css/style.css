@@ -138,7 +138,7 @@ body {
 
     height: 350px;
 
-    margin: auto;
+    margin: 180px auto;
 
     overflow: hidden;
 
@@ -154,6 +154,7 @@ body {
     height: 100%;
 
     object-fit: cover;
+    object-position: center 10%;
 }
 
 
