@@ -1,0 +1,246 @@
+/* =========================================
+   CO-OP PAGE
+========================================= */
+
+.coop-page {
+    padding: 140px 0 100px;
+}
+
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.coop-sidebar {
+    position: sticky;
+
+    top: 100px;
+
+    padding-right: 30px;
+}
+
+.coop-sidebar h1 {
+    font-size: 3rem;
+
+    font-weight: 800;
+
+    margin-bottom: 15px;
+}
+
+.coop-sidebar > p:not(.section-label) {
+    color: #aeb4c0;
+}
+
+
+/* =========================================
+   WORK TERM BUTTONS
+========================================= */
+
+.coop-terms {
+    margin-top: 40px;
+}
+
+.coop-term {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding: 18px 20px;
+
+    margin-bottom: 10px;
+
+    background: transparent;
+
+    color: #aeb4c0;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    transition:
+        0.2s;
+}
+
+.coop-term span {
+    font-size: 1.1rem;
+
+    font-weight: 700;
+}
+
+.coop-term small {
+    margin-top: 3px;
+
+    color: #6f7787;
+}
+
+.coop-term:hover {
+    border-color: #7c9cff;
+
+    color: white;
+}
+
+.coop-term.active {
+    background: #171b24;
+
+    border-color: #7c9cff;
+
+    color: white;
+}
+
+.coop-term.active small {
+    color: #aeb4c0;
+}
+
+
+/* =========================================
+   CO-OP CONTENT
+========================================= */
+
+.coop-content {
+    display: none;
+}
+
+.coop-content.active {
+    display: block;
+}
+
+
+/* =========================================
+   CO-OP HEADER
+========================================= */
+
+.coop-header {
+    padding-bottom: 50px;
+
+    margin-bottom: 70px;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.1);
+}
+
+.coop-header h1 {
+    font-size: 3.5rem;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+}
+
+.coop-header h2 {
+    color: #7c9cff;
+
+    font-size: 1.8rem;
+}
+
+.coop-header p:last-child {
+    color: #6f7787;
+}
+
+
+/* =========================================
+   REPORT SECTIONS
+========================================= */
+
+.report-section {
+    position: relative;
+
+    margin-bottom: 90px;
+}
+
+.report-number {
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #7c9cff;
+
+    font-size: 0.8rem;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.report-section h3 {
+    font-size: 2rem;
+
+    margin-bottom: 25px;
+}
+
+.report-section h4 {
+    margin-top: 40px;
+
+    margin-bottom: 15px;
+}
+
+.report-section p {
+    max-width: 850px;
+
+    color: #b8beca;
+}
+
+
+/* =========================================
+   GALLERY
+========================================= */
+
+.report-section img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .coop-sidebar {
+        position: relative;
+
+        top: auto;
+
+        padding-right: 0;
+
+        margin-bottom: 50px;
+    }
+
+    .coop-terms {
+        display: flex;
+
+        gap: 10px;
+
+        overflow-x: auto;
+
+        padding-bottom: 10px;
+    }
+
+    .coop-term {
+        min-width: 160px;
+
+        margin-bottom: 0;
+    }
+
+    .coop-header h1 {
+        font-size: 2.5rem;
+    }
+
+}
