@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <title> Portfolio | AIDAN MIKHAIL </title>
+    <title>Home | Aidan Mikhail</title>
 
     <!-- Bootstrap -->
     <link
@@ -21,102 +21,93 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+    <link rel="stylesheet" href="css/electric-cursor.css">
 
 </head>
 
-
 <body>
 
-
-<!-- ================================================= -->
-<!-- NAVIGATION                                        -->
-<!-- ================================================= -->
+<!-- =========================================
+     NAVBAR
+========================================= -->
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold"
-           href="index.html">
-
-            AIDAN MIKHAIL
-
+        <a
+            class="navbar-brand electric-hover"
+            href="index.html">
+            Aidan Mikhail
         </a>
-
 
         <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav">
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
-
-        <div class="collapse navbar-collapse"
-             id="navbarNav">
+        <div
+            class="collapse navbar-collapse"
+            id="navbarNav">
 
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="index.html">
-
+                    <a
+                        class="nav-link active electric-hover"
+                        href="index.html">
                         Home
-
                     </a>
                 </li>
 
-
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="about.html">
-
+                    <a
+                        class="nav-link electric-hover"
+                        href="about.html">
                         About
-
                     </a>
                 </li>
 
-
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="projects.html">
-
+                    <a
+                        class="nav-link electric-hover"
+                        href="projects.html">
                         Projects
-
                     </a>
                 </li>
 
-
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="skills.html">
-
+                    <a
+                        class="nav-link electric-hover"
+                        href="skills.html">
                         Skills
-
                     </a>
                 </li>
 
-
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="coop.html">
-
+                    <a
+                        class="nav-link electric-hover"
+                        href="coop.html">
                         CO-OP
-
                     </a>
                 </li>
 
-
                 <li class="nav-item">
-                    <a class="nav-link"
-                       href="resume.html">
-
+                    <a
+                        class="nav-link electric-hover"
+                        href="resume.html">
                         Resume
-
                     </a>
                 </li>
 
@@ -129,19 +120,15 @@
 </nav>
 
 
+<!-- =========================================
+     HERO
+========================================= -->
 
-<!-- ================================================= -->
-<!-- HERO                                              -->
-<!-- ================================================= -->
-
-<section class="hero-section">
+<section class="hero">
 
     <div class="container">
 
-        <div class="row align-items-center min-vh-100">
-
-
-            <!-- HERO TEXT -->
+        <div class="row align-items-center">
 
             <div class="col-lg-7">
 
@@ -149,56 +136,41 @@
                     3rd Year Computer Science Student
                 </p>
 
-
                 <h1>
-
                     Hi, I'm
-                    <span>Aidan Mikhail</span>.
-
+                    <span>Aidan Mikhail.</span>
                 </h1>
 
-
                 <p class="hero-description">
-
-                    I am a 3rd year Computer Science Student at the University of Guelph. 
-                    I have been programming since I was 9 and have never 
-                    stopped loving the problem solving, logic, and creativity that comes with it.
-
+                    I enjoy building software, solving problems, and
+                    automating things that would otherwise be repetitive
+                    or difficult to do manually.
                 </p>
 
+                <div class="hero-buttons">
 
-                <div class="mt-4">
-
-                    <a href="projects.html"
-                       class="btn btn-primary me-2">
-
+                    <a
+                        href="projects.html"
+                        class="btn btn-primary electric-hover">
                         View My Work
-
                     </a>
 
-
-                    <a href="#contact"
-                       class="btn btn-outline-light">
-
+                    <a
+                        href="#contact"
+                        class="btn btn-outline-light electric-hover">
                         Contact Me
-
                     </a>
 
                 </div>
 
             </div>
 
-
-
-            <!-- PROFILE IMAGE -->
-
             <div class="col-lg-5 text-center">
-                <div class="profile-image">
-                    <img
-                        src="assets/img/profile.jpg"
-                        alt="IMAGE ERROR">
 
-                </div>
+                <img
+                    src="assets/img/profile.jpg"
+                    alt="Aidan Mikhail"
+                    class="hero-image">
 
             </div>
 
@@ -209,19 +181,18 @@
 </section>
 
 
+<!-- =========================================
+     FEATURED PROJECTS
+========================================= -->
 
-<!-- ================================================= -->
-<!-- FEATURED PROJECTS                                 -->
-<!-- ================================================= -->
-
-<section class="section-padding section-dark">
+<section class="section" id="projects">
 
     <div class="container">
 
         <div class="section-heading">
 
             <p class="section-label">
-                FEATURED WORK
+                PROJECTS
             </p>
 
             <h2>
@@ -229,8 +200,8 @@
             </h2>
 
             <p>
-                Here are some of my favorite projects that I have worked on. <br>
-                Click on "View More" or Visit the Projects page to see more of my work.
+                A few of the projects I've worked on throughout university
+                and in my free time.
             </p>
 
         </div>
@@ -238,37 +209,37 @@
 
         <div class="row g-4">
 
+            <!-- Vector Recommender -->
 
-            <!-- PROJECT 1 -->
+            <div class="col-lg-4">
 
-            <div class="col-md-4">
+                <div class="project-card electric-hover">
 
-                <div class="project-card">
+                    <img
+                        src="assets/img/project-1.jpg"
+                        alt="Vector Recommender">
 
-                    <div class="project-image">
+                    <div class="project-card-body">
 
-                        <img
-                            src="assets/img/project-1.jpg"
-                            alt="Vector Recommender">
-
-                    </div>
-
-
-                    <div class="p-4">
+                        <span class="project-category">
+                            Machine Learning
+                        </span>
 
                         <h3>
                             Vector Recommender
                         </h3>
 
                         <p>
-                            Vector Recommender is a web application allowing for people to input a MTG deck and recieve recommendations for cards to add to their deck based on the cards they already have. It uses a vector database to store card data and a vector search algorithm to find similar cards.
+                            A Magic: The Gathering Commander deck
+                            recommendation system using card embeddings
+                            and multiple scoring dimensions.
                         </p>
 
-                        <a href="projects.html"
-                           class="btn btn-sm btn-outline-light">
-
+                        <a
+                            href="projects.html"
+                            class="project-link electric-hover">
                             Learn More
-
+                            <i class="bi bi-arrow-right"></i>
                         </a>
 
                     </div>
@@ -278,39 +249,36 @@
             </div>
 
 
+            <!-- StreamGryph -->
 
-            <!-- PROJECT 2 -->
+            <div class="col-lg-4">
 
-            <div class="col-md-4">
+                <div class="project-card electric-hover">
 
-                <div class="project-card">
+                    <img
+                        src="assets/img/project-2.jpg"
+                        alt="StreamGryph">
 
-                    <div class="project-image">
+                    <div class="project-card-body">
 
-                        <img
-                            src="assets/img/project-2.jpg"
-                            alt="StreamGryph">
-
-                    </div>
-
-
-                    <div class="p-4">
+                        <span class="project-category">
+                            Web Development
+                        </span>
 
                         <h3>
                             StreamGryph
                         </h3>
 
                         <p>
-
-                            As President of Gryphon Esports I helped to create StreamGryph, an application that connected a self created application with OBS to provide a nice and seamless Streaming Overlay and allowing Fun and Entertainment Esports streams to be run on the University of Guelph's Twitch Channel.
-
+                            A streaming platform project built as part
+                            of my work with Gryphon Gaming.
                         </p>
 
-                        <a href="projects.html"
-                           class="btn btn-sm btn-outline-light">
-
+                        <a
+                            href="projects.html"
+                            class="project-link electric-hover">
                             Learn More
-
+                            <i class="bi bi-arrow-right"></i>
                         </a>
 
                     </div>
@@ -320,39 +288,36 @@
             </div>
 
 
+            <!-- Eternia SMP Builder -->
 
-            <!-- PROJECT 3 -->
+            <div class="col-lg-4">
 
-            <div class="col-md-4">
+                <div class="project-card electric-hover">
 
-                <div class="project-card">
+                    <img
+                        src="assets/img/project-3.jpg"
+                        alt="Eternia SMP Builder">
 
-                    <div class="project-image">
+                    <div class="project-card-body">
 
-                        <img
-                            src="assets/img/project-3.jpg"
-                            alt="Eternia SMP Builder">
-
-                    </div>
-
-
-                    <div class="p-4">
+                        <span class="project-category">
+                            Java / Minecraft
+                        </span>
 
                         <h3>
                             Eternia SMP Builder
                         </h3>
 
                         <p>
-
-                            Eternia SMP Builder is a Minecraft Plugin I created that allows for the creation of custom "Builder" blocks that when given a Json file for a build will automatically build the structure in the world. This will be used in the Eternia SMP Minecraft Server to allow for players to easily build structures in their world.
-
+                            A Paper plugin designed to make building and
+                            managing structures on a Minecraft server easier.
                         </p>
 
-                        <a href="projects.html"
-                           class="btn btn-sm btn-outline-light">
-
+                        <a
+                            href="projects.html"
+                            class="project-link electric-hover">
                             Learn More
-
+                            <i class="bi bi-arrow-right"></i>
                         </a>
 
                     </div>
@@ -361,6 +326,81 @@
 
             </div>
 
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     CURRENT WORK
+========================================= -->
+
+<section class="section section-dark">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <p class="section-label">
+                    CURRENTLY
+                </p>
+
+                <h2>
+                    ITV Specialist Intern
+                </h2>
+
+                <h3 class="company-name">
+                    Hitachi Rail
+                </h3>
+
+                <p>
+                    I'm currently working at Hitachi Rail as an ITV
+                    Specialist Intern, where I work on automation for
+                    testing rail signaling systems.
+                </p>
+
+                <p>
+                    My work has involved Python, Perl, automated testing,
+                    data processing, and working with existing systems
+                    and codebases.
+                </p>
+
+                <a
+                    href="coop.html"
+                    class="btn btn-primary electric-hover">
+                    View My CO-OP
+                </a>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="work-card electric-hover">
+
+                    <div class="work-icon">
+                        <i class="bi bi-train-front"></i>
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Automation & Testing
+                        </h3>
+
+                        <p>
+                            Building software to help automate large and
+                            complex tests for railway signaling systems.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -369,80 +409,74 @@
 </section>
 
 
+<!-- =========================================
+     CONTACT
+========================================= -->
 
-<!-- ================================================= -->
-<!-- QUICK INTRODUCTION                               -->
-<!-- ================================================= -->
+<section
+    class="section contact-section"
+    id="contact">
 
-<section class="section-padding">
+    <div class="container">
 
-    <div class="container text-center">
+        <div class="section-heading">
 
-        <p class="section-label">
-            CURRENTLY
-        </p>
+            <p class="section-label">
+                CONTACT
+            </p>
 
-        <h2>
-            ITV SPECIALIST INTERN CO-OP - HITATCHI RAIL
-        </h2>
+            <h2>
+                Let's Connect
+            </h2>
 
-        <p class="mx-auto content-limit">
+            <p>
+                Feel free to reach out if you'd like to talk about a
+                project, opportunity, or just say hello.
+            </p>
 
-            I am currently working on the Automation Team for Integration, Testing, And Validation (ITV) at Hitatchi Rail. Currently Creating Global Data Sets using Python for use in Perl Scripts. To Learn more about my work experience, check out my CO-OP page.
-
-        </p>
-
-    </div>
-
-</section>
-
-
-
-<!-- ================================================= -->
-<!-- CONTACT                                           -->
-<!-- ================================================= -->
-
-<section id="contact"
-         class="contact-section section-dark">
-
-    <div class="container text-center">
-
-        <h2>
-            GET IN TOUCH
-        </h2>
-
-        <p>
-
-            Send me an email or connect with me on GitHub or LinkedIn. I am always open to discussing new projects, creative ideas, or opportunitie.
-
-        </p>
-
+        </div>
 
         <div class="contact-links">
 
-            <a href="mailto:aidan.mikhail@gmail.com">
+            <a
+                href="mailto:aidan.mikhail@gmail.com"
+                class="contact-link electric-hover">
 
                 <i class="bi bi-envelope"></i>
 
-                aidan.mikhail@gmail.com
+                <span>
+                    aidan.mikhail@gmail.com
+                </span>
 
             </a>
 
 
-            <a href="https://github.com/AidanMikhail">
+            <a
+                href="https://github.com/AidanMikhail"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link electric-hover">
 
                 <i class="bi bi-github"></i>
 
-                GitHub
+                <span>
+                    GitHub
+                </span>
 
             </a>
 
 
-            <a href="https://www.linkedin.com/in/aidan-mikhail/">
+            <a
+                href="https://www.linkedin.com/in/aidan-mikhail/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link electric-hover">
 
                 <i class="bi bi-linkedin"></i>
 
-                LinkedIn
+                <span>
+                    LinkedIn
+                </span>
 
             </a>
 
@@ -453,17 +487,19 @@
 </section>
 
 
-
-<!-- ================================================= -->
-<!-- FOOTER                                            -->
-<!-- ================================================= -->
+<!-- =========================================
+     FOOTER
+========================================= -->
 
 <footer>
 
-    <div class="container text-center">
+    <div class="container">
 
         <p>
-            © 2026 Aidan Mikhail.
+            © 2026 Aidan Mikhail
+        </p>
+
+        <p>
             Built with HTML, CSS, and Bootstrap.
         </p>
 
@@ -472,13 +508,13 @@
 </footer>
 
 
-
-<!-- Bootstrap JavaScript -->
+<!-- Bootstrap JS -->
 
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
 </script>
 
-</body>
+<script src="js/electric-cursor.js"></script>
 
+</body>
 </html>
